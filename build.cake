@@ -62,7 +62,7 @@ Task("Test")
 Task("Docs")
     .Does(() =>
 {
-    StartProcess("doxygen", "Doxyfile");
+    StartProcess("doxygen", "./TestProject/Doxyfile");
 });
 
 Task("Default")
