@@ -1,8 +1,8 @@
 #tool nuget:?package=StyleCop.Analyzers
 
-var projectPath = "./MyDotNetApp/MyDotNetApp.csproj";
-var testPath = "./Tests/Tests.csproj";
-var docOutput = "./docs/html";
+var projectPath = "./TestProject/TestProject.csproj";
+var testPath = "./TestProject/TestProject.csproj";
+var docOutput = "./TestProject/html";
 
 Task("Clean")
     .Does(() =>
