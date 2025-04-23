@@ -1,16 +1,8 @@
 using Xunit;
 using System;
 
-namespace HandsOn4.Tests
+namespace HW13.Tests
 {
-    public class UnitTest1
-    {
-        [Fact]
-        public void Test1()
-        {
-
-        }
-    }
 
     public class ATests
     {
